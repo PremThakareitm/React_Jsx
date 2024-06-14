@@ -1,0 +1,9 @@
+.product_list
+{
+    width: 100%;
+    padding: 50px 10px;
+    background-color:grey;
+    display: flex;
+    flex-direction: row;
+    column-gap: 5%;
+}
