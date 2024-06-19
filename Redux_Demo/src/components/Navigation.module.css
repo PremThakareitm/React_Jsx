@@ -1,0 +1,24 @@
+.header {
+    width: auto;
+    padding: 10px 5%;
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.logo {
+    padding: 10px;
+    background-color: rgb(123, 57, 255);
+}
+
+.nav {
+    background-color: rgb(176, 176, 255);
+    display: flex;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    list-style: none;
+}
