@@ -1,0 +1,9 @@
+.userBox {
+    padding: 10px;
+    margin: 10px;
+    background-color:gray;
+}
+
+.userBoxBlue {
+    background-color: blue; 
+}
