@@ -1,0 +1,82 @@
+/* Example of SpinWheel.css with added styles for better UI/UX */
+.spin-wheel-container {
+  text-align: center;
+  padding: 20px;
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px #ff4c249e;
+;
+  max-width: 100%;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.spin-wheel-container h1 {
+  color: #ff4b24;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+h1{
+  padding: 10px;
+  font-family: Arial, sans-serif;
+}
+
+.wheel-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.button-group {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.button-group button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #ff4b24;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.button-group button:hover {
+  background-color: #d13c13;
+}
+
+.food-details {
+  margin-top: 20px;
+  text-align: left;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+}
+
+.food-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.food-details p {
+  margin: 10px 0;
+  color: #333;
+}
+
+.food-details p strong {
+  color: #ff4b24;
+}
+
+.food-details p:last-child {
+  margin-bottom: 0;
+}
